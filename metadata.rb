@@ -6,6 +6,8 @@ description      "Installs/Configures php-modules"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.1.0"
 
+name "php-modules"
+
 %w{ debian ubuntu mint redhat centos amazon }.each do |os|
     supports os
 end
