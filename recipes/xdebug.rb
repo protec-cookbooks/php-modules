@@ -17,7 +17,7 @@ when "ubuntu"
 end
 
 cookbook_file "/etc/php5/mods-available/xdebug.ini" do
-    source "xdebug"
+    source "xdebug.ini"
     owner "root"
     mode 00700
 end
